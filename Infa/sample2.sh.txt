@@ -1,0 +1,25 @@
+mk dir Sai
+$touch Book.names
+$cat>Book.names
+Dog man and cat kid
+> Dog man
+> Dogman a tale of 2 kitties
+> Dog man 20000 fleas under the sea
+> Dog man for whom the ball rolls
+> Dog man mothering heights
+> Dog man grime and punishment
+> Dog man fetch 22
+> Dog man brawl of the wild
+> Dog man unleashed
+> Dog man lord of the fleas
+ctrl+d it will save all test
+
+to check test in folder
+$head Book.names
+
+
+how to delete 30days old file?
+DELETE FROM Table_name
+WHERE Date_column < GETDATE() - 30
+
+delete from emp_dummy where hiredate<sysdate-30;
